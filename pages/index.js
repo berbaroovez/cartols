@@ -50,8 +50,9 @@ export default function Home({ allPostsData }) {
               href="https://www.twitter.com/berbaroovez"
             />
             <ProjectCard
-              title="CookieCrumbs"
-              description="A SaaS product that allows cookie makers to track their orders A SaaS product that allows cookie makers to track their orders"
+              title="catJam Club"
+              description="A website that allows discord communities to create community playlists"
+              href="https://catjam.club"
             />
             <ProjectCard
               title="CookieCrumbs"

@@ -1,6 +1,6 @@
 const ExternalLink = ({ href, children }) => (
   <a
-    className="text-sm text-gray-500 hover:text-gray-600 transition"
+    className="text-sm text-gray-500 dark:text-black hover:text-gray-600 transition dark:hover:text-white"
     target="_blank"
     rel="noopener noreferrer"
     href={href}
@@ -11,10 +11,10 @@ const ExternalLink = ({ href, children }) => (
 
 export default function ProjectCard({ title, description, href }) {
   return (
-    <div className="bg-purple-300 border-white border-2 p-4 rounded-md w-52 relative">
+    <div className="bg-purple-300 dark:bg-gray-500 dark:border-gray-400 border-white border-2 p-4 rounded-md w-52 relative">
       <ExternalLink href={href}>
         <svg
-          className="h-5 w-5 abs relative left-40 -top-2"
+          className="h-5 w-5 abs relative left-40 -top-2 "
           viewBox="0 0 24 24"
         >
           <g
@@ -28,7 +28,7 @@ export default function ProjectCard({ title, description, href }) {
           </g>
         </svg>
       </ExternalLink>
-      <h4 className="text-lg font-bold w-10">{title}</h4>
+      <h4 className="text-lg font-bold">{title}</h4>
       <p className="text-sm">{description}</p>
     </div>
   );
