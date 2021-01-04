@@ -72,7 +72,7 @@ export default function Home({ allPostsData }) {
             to always be learning and to also share my knowledge with my co-workers. I'm grateful for everyone
             who has taught me something and I want to pass that down as long as I can.
           </p>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2">
+          <div className="ml-2 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2">
             <div className="grid grid-flow-row auto-rows-auto gap-2">
               <p>🌟 React</p>
               <p>🌟 Javascript</p>
