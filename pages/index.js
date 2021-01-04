@@ -61,7 +61,7 @@ export default function Home({ allPostsData }) {
         </div>
         <div className="mb-16">
           <h3 className="font-semibold text-3xl relative pb-4">My Skills</h3>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2">
             <div className="grid grid-flow-row auto-rows-auto gap-2">
               <p>🌟 React</p>
               <p>🌟 Javascript</p>
