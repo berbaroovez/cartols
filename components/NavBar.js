@@ -63,7 +63,8 @@ export default function NavBar() {
         {/* className="hidden md:block text-sm lg:text-base" */}
         <div
           className={`
-            absolute border-l-4 border-purple-400 bg-purple-500 
+            absolute border-l-4 border-purple-300 bg-purple-400 
+            dark:bg-gray-700 dark:border-gray-300
             grid grid-flow-row z-10   right-0 top-0 
             px-10 pt-20 pb-96
             transform ${
@@ -74,6 +75,7 @@ export default function NavBar() {
             md:relative
             md:border-l-0
             md:bg-transparent
+            md:dark:bg-transparent
             md:grid-flow-col
             md:px-0
             md:pt-0
