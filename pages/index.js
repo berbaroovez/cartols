@@ -49,14 +49,14 @@ export default function Home({ allPostsData }) {
           <p>
             I graduated from Loras College in 2019 with a degree in computer
             science. My main language at the time of graduation was python. I
-            tried to be a backend developer before I realized I love to make
-            visual projects.{" "}
+            tried my hand at being a backend developer. I soon realized that I
+            prefer to be on the front end side of development
           </p>
           <p>
             This leads me to current day after completing Srimbas Front End
             developer course, I’ve found my passion of making websites. Listed
             on my projects page are a few of my current projects! Take a look
-            and don’t be shy to reach out about any questions.{" "}
+            and don’t be shy to reach out about any questions.
           </p>
         </div>
         <div className="mb-16">
