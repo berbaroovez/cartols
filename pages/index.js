@@ -39,7 +39,7 @@ export default function Home({ allPostsData }) {
             YOLOYOLOYOLOYOLOYOLOYOLOYOLOYOLOYOLOYOLOYOLOYOLOYOLOYOLOYOLOYOLOYOLOYOLOYOLOYOLOYOLO
           </p>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-gray-300 mb-16">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-gray-300 mb-16 ml-2 sm:ml-8">
           <p>
             Hello! My name is Carter welcome to my personal website. My journey
             to becoming a programmer started as I watched YouTube videos of
