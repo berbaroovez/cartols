@@ -5,7 +5,7 @@ export const siteTitle = "Carter Olson's Blog";
 
 export default function Layout({ children, home }) {
   return (
-    <div className="bg-purple-500 dark:bg-gray-800">
+    <div className="bg-purple-500 dark:bg-gray-800 overflow-x-hidden">
       <NavBar />
       <main className="grid grid-cols-1 justify-center bg-purple-500 dark:bg-gray-800 px-8">
         {children}
