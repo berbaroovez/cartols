@@ -94,25 +94,22 @@ export default function Home({ allPostsData }) {
         <section className="mt-10">
         <h3 className="w-40 font-semibold text-3xl relative pb-2 md:ml-4 border-l-2 border-b-2 pl-2 mb-4">Projects</h3>
           {/* grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2 just bg-gray-800 */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2 justify-items-center mt-2">
+          <div className="grid sm:grid-cols-2 gap-4">
             <ProjectCard
               title="CookieCrumbs"
               description="A SaaS product that allows cookie makers to track their orders"
               href="https://www.twitter.com/berbaroovez"
+              picture="/images/CookieCrumbs.png"
+              alt="A picture of my cookie crumbs project"
             />
             <ProjectCard
               title="catJam Club"
               description="A website that allows discord communities to create community playlists"
               href="https://catjam.club"
+              picture="/images/CookieCrumbs.png"
+              alt="A picture of my cookie crumbs project"
             />
-            <ProjectCard
-              title="CookieCrumbs"
-              description="A SaaS product that allows cookie makers to track their orders A SaaS product that allows cookie makers to track their orders"
-            />
-            <ProjectCard
-              title="CookieCrumbs"
-              description="A SaaS product that allows cookie makers to track their orders A SaaS product that allows cookie makers to track their orders"
-            />
+           
           </div>
         </section>
       </div>
