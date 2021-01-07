@@ -9,7 +9,6 @@ export default function NavBar() {
   useEffect(() => setMounted(true), []);
 
   function handleButtonClick() {
-    console.log("Pog");
     setIsOpen(!isOpen);
   }
   return (
