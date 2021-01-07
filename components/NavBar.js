@@ -86,17 +86,17 @@ export default function NavBar() {
            lg:text-base
             `}
         >
-          <Link href="/ Dashboard ">
+          <Link href="/">
             <a className=" p-4 text-gray-200 rounded-md	hover:no-underline hover:bg-purple-300 dark:hover:bg-gray-500">
-              💫Dashboard
+              💫Home
             </a>
           </Link>
-          <Link href="/ Dashboard">
+          <Link href="/dashboard">
             <a className=" p-4 text-gray-200 rounded-md	hover:no-underline hover:bg-purple-300 dark:hover:bg-gray-500">
-              📓Blog
+              📡Dashboard
             </a>
           </Link>
-          <Link href="/ Dashboard">
+          <Link href="/projects">
             <a className=" p-4 text-gray-200 rounded-md	hover:no-underline hover:bg-purple-300 dark:hover:bg-gray-500">
               👨‍💻Portfolio
             </a>

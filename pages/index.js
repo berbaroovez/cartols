@@ -105,16 +105,16 @@ export default function Home({ allPostsData }) {
             <ProjectCard
               title="CookieCrumbs"
               description="A SaaS product that allows cookie makers to track their orders"
-              href="https://www.twitter.com/berbaroovez"
+              href="/p/CookieCrumbs"
               picture="/images/CookieCrumbs.png"
               alt="A picture of my cookie crumbs project"
             />
             <ProjectCard
-              title="catJam Club"
-              description="A website that allows discord communities to create community playlists"
-              href="https://catjam.club"
-              picture="/images/CookieCrumbs.png"
-              alt="A picture of my cookie crumbs project"
+              title="Nuzlocke Tracker"
+              description="A website to that allows streamers to publicly track their nuzlocke runs"
+              href="/p/NuzlockeTracker"
+              picture="/images/NuzlockeTrackerCard.png"
+              alt="A picture of a nuzlocke tracker"
             />
           </div>
         </section>
