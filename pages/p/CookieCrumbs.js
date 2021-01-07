@@ -6,11 +6,19 @@ import ProjectProblems from "../../components/Project/ProjectProblems";
 import ProjectStack from "../../components/Project/ProjectStack";
 import ProjectPage from "../../components/ProjectPage";
 
-
+import { NextSeo } from 'next-seo';
 export default function CookieCrumbs(){
 return(
     <ProjectPage>
-
+       
+         <NextSeo
+        title="CookieCrumbs – Carter Olson"
+        canonical="https://cartols/p/CookieCrumbs"
+        openGraph={{
+          url: 'https://cartols/p/CookieCrumbs',
+          title: 'CookieCrumbs – Carter Olson'
+        }}
+      />
         <ProjectHeader
             title="Cookie Crumbs"
             picture="/images/CookieDashboard.png"

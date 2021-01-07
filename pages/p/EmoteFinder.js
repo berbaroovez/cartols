@@ -2,12 +2,20 @@ import ProjectGoals from "../../components/Project/ProjectGoals";
 import ProjectHeader from "../../components/Project/ProjectHeader";
 import ProjectLessons from "../../components/Project/ProjectLessons";
 import ProjectPage from "../../components/ProjectPage";
-
+import { NextSeo } from 'next-seo';
 
 export default function EmoteFinder(){
     return(
 
         <ProjectPage>
+            <NextSeo
+        title="Emote Finder – Carter Olson"
+        canonical="https://cartols/p/EmoteFinder"
+        openGraph={{
+          url: 'https://cartols/p/EmoteFinder',
+          title: 'Emote Finder – Carter Olson'
+        }}
+      />
             <ProjectHeader
                 title="Emote Finder"
                 picture="/images/EmoteFinder.png"

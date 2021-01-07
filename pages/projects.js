@@ -1,9 +1,18 @@
 import Layout from "../components/layout";
 import ProjectCard from "../components/ProjectCard";
-
+import { NextSeo } from 'next-seo';
 export default function Projects() {
   return (
     <Layout>
+
+            <NextSeo
+        title="Portfolio – Carter Olson"
+        canonical="https://cartols/projects"
+        openGraph={{
+          url: 'https://cartols/projects',
+          title: 'Portfolio – Carter Olson'
+        }}
+      />
       <div>
         <h1>My Project Log</h1>
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 ">
