@@ -1,4 +1,4 @@
-import Layout from "../../components/layout";
+
 import ProjectGoals from "../../components/Project/ProjectGoals";
 import ProjectHeader from "../../components/Project/ProjectHeader";
 import ProjectLessons from "../../components/Project/ProjectLessons";
@@ -13,13 +13,13 @@ return(
 
         <ProjectHeader
             title="Cookie Crumbs"
-            description ="A SaaS that is built for custom sugar cookie makers. It allows them
-            to add a order form to their site so they can get rid of using google forms. On th dashboard
-            it currently allows for them to see new orders and search all orders. This is a on going product
-            that started from a idea from my mom, a cookie maker."
             picture="/images/CookieDashboard.png"
             alt="The cookie crumbs dashboard"
-        >
+        >   
+            <p>A SaaS that is built for custom sugar cookie makers. It allows them
+            to add a order form to their site so they can get rid of using google forms. On the dashboard
+            it currently allows for them to see new orders and search all orders. This is a on going product
+            that started from a idea from my mom, a cookie maker.   </p>
             <p className="text-xl"> <span className="text-green-400">Stack:</span> React, AWS Amplify, Ant Design</p>
         </ProjectHeader>
         
@@ -44,17 +44,17 @@ return(
        </ProjectStack>
         <ProjectProblems>
             I ran into problems with AWS Amplify a few times. Their CLI tool would mess up on my PC and would not allow me to push new
-            database updates to their servers. The current fix for this is switching over project development to my macbook which didnt have the problem.
-            Another problem was decieding how I would go about providing order forms for each customer. I was trying to decide if would just offer
+            database updates to their servers. The current fix for this is switching over project development to my macbook which didn't have the problem.
+            Another problem was deciding how I would go about providing order forms for each customer. I was trying to decide if would just offer
             a full website package where I build a site and give them access to the order form that way. Then one day I was watching a tutorial from
             Lee Robinson and he was hosting his product in Iframes on other peoples websites it just clicked that I could use IFrames as well. 
         </ProjectProblems>
 
 <ProjectLessons>
 So far I've learned a ton from this project and I will continue to learn. Their are a few major lessons learned though. Learning more about AWS 
-services has been incedible. The services amazon provide make it incredibly easy to push out new websites. Using Figma to design layouts was also 
+services has been incredible. The services amazon provide make it incredibly easy to push out new websites. Using Figma to design layouts was also 
 incredible. As a programmer I always want to just hop into coding but, designing first in Figma actually lead to a lot less frustration. And finally being able 
-to work with an actual future user of my product, aka my mom, has allowed me to expand my collabration skills and learn how to itterate designs.
+to work with an actual future user of my product, aka my mom, has allowed me to expand my collaboration skills and learn how to iterate designs.
     
 </ProjectLessons>
     </ProjectPage>
