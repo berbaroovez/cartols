@@ -31,25 +31,31 @@ export default function Home({ allPostsData }) {
           </h1>
           <h1 className="">Currently Seeking a Job/Internship</h1>
         </div>
-        <div className="w-full h-80 relative mb-16">
-          <Image
-            className=""
-            src="/images/living.webp"
-            alt="Picture of the author"
-            layout="fill" // required
-            objectFit="cover"
-          />
+        <div className="relative mb-16">
+          <div className="w-full h-72 relative ">
+            <Image
+              className=""
+              src="/images/gramps.webp"
+              alt="Picture of the author"
+              layout="fill" // required
+              objectFit="cover"
+            />
+          </div>
+          <p className="absolute text-xs text-gray-300 right-0">
+            Thats me in the middle! w/ my grandpa and dad
+          </p>
         </div>
+
         <div>
           <h3 className="w-40 font-semibold text-3xl relative pb-2 md:ml-4 border-l-2 border-b-2 pl-2 mb-4">
-            Who I Am
+            About Me
           </h3>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-white mb-16 ml-2 sm:ml-8">
             <p>
               Hello! My name is Carter welcome to my personal website. My
               journey to becoming a programmer started as I watched YouTube
               videos of people hacking Habbo Hotel and I’ve been intrigued ever
-              since.
+              since. <span className="hidden sm:inline">→</span>
             </p>
 
             <p>
