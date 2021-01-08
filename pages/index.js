@@ -1,5 +1,5 @@
 import Layout, { siteTitle } from "../components/layout";
-
+import { NextSeo } from 'next-seo';
 import { getSortedPostsData } from "../lib/posts";
 import { useState, useEffect } from "react";
 import Image from "next/image";
@@ -19,6 +19,14 @@ export default function Home({ allPostsData }) {
   useEffect(() => setMounted(true), []);
   return (
     <Layout>
+         <NextSeo
+        title="Home – Carter Olson"
+        canonical="https://cartols/"
+        openGraph={{
+          url: 'https://cartols/',
+          title: 'Home – Carter Olson'
+        }}
+      />
       <div className="grid grid-cols-1  justify-center items-start max-w-5xl mx-auto mb-16 relative">
         <div
           className={`ml-4 mb-16 font-semibold text-2xl sm:text-4xl transform ${
