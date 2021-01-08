@@ -64,18 +64,20 @@ export default function NavBar() {
           className={`
             absolute border-l-4 border-purple-300 bg-purple-400 
             dark:bg-gray-700 dark:border-gray-300
-            grid grid-flow-row z-10   right-0 top-0 
-            px-10 pt-20 pb-96
+           flex flex-col z-10  h-screen right-0 top-0 
+            px-10 pt-24
             transform ${
               isOpen
                 ? "translate-x-0 ease-in-out transition-transform"
                 : "translate-x-full ease-in-out transition-transform"
             }
+            
             md:relative
             md:border-l-0
             md:bg-transparent
             md:dark:bg-transparent
-            md:grid-flow-col
+            md:flex-row
+            md:h-auto
             md:px-0
             md:pt-0
             md:pb-0
@@ -88,17 +90,17 @@ export default function NavBar() {
         >
           <Link href="/">
             <a className=" p-4 text-gray-200 rounded-md	hover:no-underline hover:bg-purple-300 dark:hover:bg-gray-500">
-              💫Home
+              💫{"  "}Home
             </a>
           </Link>
           <Link href="/dashboard">
             <a className=" p-4 text-gray-200 rounded-md	hover:no-underline hover:bg-purple-300 dark:hover:bg-gray-500">
-              📡Dashboard
+              📡{"  "}Dashboard
             </a>
           </Link>
           <Link href="/projects">
             <a className=" p-4 text-gray-200 rounded-md	hover:no-underline hover:bg-purple-300 dark:hover:bg-gray-500">
-              👨‍💻Portfolio
+              👨‍💻{"  "}Portfolio
             </a>
           </Link>
         </div>
