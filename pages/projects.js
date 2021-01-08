@@ -24,19 +24,20 @@ export default function Projects() {
             alt="A picture of my cookie crumbs project"
           />
 
-          <ProjectCard
-            title="EmoteFinder"
-            description="A website to find emotes for twitch streamers"
-            href="/p/EmoteFinder"
-            picture="/images/EmoteFinderCard.png"
-            alt="A picture of emotefinder.com project"
-          />
+       
           <ProjectCard
             title="Nuzlocke Tracker"
             description="A website to that allows streamers to publicly track their nuzlocke runs"
             href="/p/NuzlockeTracker"
             picture="/images/NuzlockeTrackerCard.png"
             alt="A picture of a nuzlocke tracker"
+          />
+             <ProjectCard
+            title="EmoteFinder"
+            description="A website to find emotes for twitch streamers"
+            href="/p/EmoteFinder"
+            picture="/images/EmoteFinderCard.png"
+            alt="A picture of emotefinder.com project"
           />
         </div>
       </div>
