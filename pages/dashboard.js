@@ -17,7 +17,7 @@ export default function Dashboard(){
         }}
       />
              <div className=" justify-center text-sm md:text-4xl items-start max-w-2xl mx-auto mb-16">
-                <h1>Dashboard is being built currently!</h1>
+                <h1>Dashboard is currently being worked on!</h1>
         </div>
         </Layout>
     )

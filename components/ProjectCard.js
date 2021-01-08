@@ -20,8 +20,8 @@ export default function ProjectCard({
   alt,
 }) {
   return (
-    <div className=" w-full p-4 relative">
-      <div className="w-full h-64 mx-auto  relative">
+    <div className=" w-full p-4 relative mb-8">
+      <div className="w-full h-64 mx-auto  relative mb-2">
         <Image
           className="rounded-md"
           src={picture}

@@ -14,7 +14,7 @@ export default function Projects() {
         }}
       />
       <div>
-        <h1>My Project Log</h1>
+        <h1 className="w-48 font-semibold font-sans text-3xl relative pb-2 md:ml-4 border-l-2 border-b-2 pl-2 mb-4">My Portfolio</h1>
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 ">
           <ProjectCard
             title="CookieCrumbs"

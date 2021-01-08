@@ -30,7 +30,7 @@ export default function EmoteFinder(){
 
                 <p className="text-xl"> <span className="text-green-400 mt-8">Stack: </span> React and Vercel</p>
 
-                <p className="text-xl"> <span className="text-green-400 mt-8">Live View: </span> <a className="text-white" href="https://emotefinder.com">emotefinder.com</a></p>
+                <p className="text-xl"> <span className="text-green-400 mt-8">Live View: </span> <a className="text-white" href="https://emotefinder.com">https://emotefinder.com</a></p>
             </ProjectHeader>
 
             <ProjectGoals>
