@@ -1,3 +1,4 @@
+import Footer from "./Footer";
 import NavBar from "./NavBar";
 
 const name = "Carter Olson";
@@ -10,6 +11,7 @@ export default function Layout({ children, home }) {
       <main className="grid grid-cols-1 justify-center bg-purple-500 dark:bg-gray-800 px-8">
         {children}
       </main>
+      <Footer/>
     </div>
   );
 }
